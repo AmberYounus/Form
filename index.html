@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <div id="Form">
+        <fieldset >
+            <legend>
+               Form
+            </legend>
+
+
+            <div style="margin: 10px 0px;">
+                <label for="Username" style="display: block;">Username</label>
+            <input type="text" name="" id="Username" placeholder="Enter username" style="width: 250px;">
+            </div>
+
+            <div style="margin: 10px 0px;">
+                <label for="firstname" style="display: block;">First Name</label>
+            <input type="text" name="" id="firstname" placeholder="Enter firstname" style="width: 250px;">
+            </div>
+
+            <div style="margin: 10px 0px;">
+                <label for="Lastname" style="display: block;">Last name</label>
+            <input type="text" name="" id="Lastname" placeholder="Enter Last name" style="width: 250px;">
+            </div>
+            <div style="margin: 10px 0px;">
+                <label for="DateOfBirth" style="display: block; font-weight: bold; ">Date Of Birth</label>
+                <input type="date" name="DateOfBirth" id="DateOfBirth" placeholder="Enter Date Of Birth" style="width: 250px;">
+            </div>
+            <div style="margin: 10px 0px;">
+                <label for="Gender" style="display: block;">Gender</label>
+            
+                <label for="Gender_Male">
+                   <input type="radio" name="Gender" value="1" id="Gender_Male" >
+                  Male
+                </label>
+
+                <label for="Gender_Female">
+                    <input type="radio" name="Gender" value="2" id="Gender_Female" >
+                   Female
+                 </label>
+            </div>
+
+            <div style="margin: 10px 0px;">
+                <label for="Specialization" style="display: block;">Specialization</label>
+            
+                <label for="Specialization_IT"  style="display: block;">
+                   <input type="checkbox"  value="1" id="Specialization_IT" >
+                 IT
+                </label>
+
+                <label for="Specialization_FrontEnd"  style="display: block;">
+                    <input type="checkbox" value="2" id="Specialization_FrontEnd" >
+                  Front End Developer
+                 </label>
+
+                <label for="Specialization_BackEnd"  style="display: block;"> 
+                    <input type="checkbox"  value="3" id="Specialization_BackEnd" >
+                  Back End Developer
+                 </label>
+            </div>
+
+        
+            <div style="margin: 10px 0px;">
+                <label for="CurrentSalary" style="display: block; font-weight: bold; ">Current Salary</label>
+                <input type="range" name="CurrentSalary" id="CurrentSalary" value="0" min="10000" max="10000000" style="width: 250px;">
+            </div>
+
+            <div style="margin: 10px 0px;">
+                <label for="ExpectedSalary" style="display: block;">Expected Salary</label>
+            <input type="range" name="ExpectedSalary" id="ExpectedSalary"value="0" min="10000" max="10000000" style="width: 250px;">
+            </div>
+<hr>
+            <div style="margin: 10px 0px;">
+            <input type="submit" value="Submit" class="submit">
+            </div>
+
+            
+        </fieldset>
+    </div>
+</body>
+</html>
